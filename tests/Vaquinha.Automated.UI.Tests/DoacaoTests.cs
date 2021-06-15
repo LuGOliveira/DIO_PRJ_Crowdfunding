@@ -104,6 +104,7 @@ namespace Vaquinha.AutomatedUITests
 			IWebElement campoCVV = _driver.FindElement(By.Id("cvv"));
 			campoCVV.SendKeys(doacao.FormaPagamento.CVV);
 
+
 			//Assert
 			_driver.Url.Should().Contain("/Doacoes/Create");
 		}
