@@ -59,6 +59,7 @@ namespace Vaquinha.AutomatedUITests
 			webElement = _driver.FindElement(By.ClassName("btn-yellow"));
 			webElement.Click();
 
+			/*
 			IWebElement campoNome = _driver.FindElement(By.Id("DadosPessoais_Nome"));
 			campoNome.SendKeys(doacao.DadosPessoais.Nome);
 
@@ -104,6 +105,7 @@ namespace Vaquinha.AutomatedUITests
 			IWebElement campoCVV = _driver.FindElement(By.Id("cvv"));
 			campoCVV.SendKeys(doacao.FormaPagamento.CVV);
 
+			*/
 
 			//Assert
 			_driver.Url.Should().Contain("/Doacoes/Create");
