@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # dotnet-vaquinha-tests
 Projeto Base para Testes - .Net Core  
 
@@ -16,3 +17,8 @@ Projeto Base para Testes - .Net Core
 
 ## Slides
 [Slides em PDF](TesteNetCore.pdf)
+=======
+# DIO - Projeto para implementar stack de testes em um projeto .NET de Crowdfunding
+
+Com orientações do especialista Eliézer Zarpelão o objetivo do projeto é implementar a parte de testes desta aplicação incluindo testes de unidades, integrados e TDD.
+>>>>>>> 7ad3257b4c3889980ae90d68bfa3ffec20c310ca

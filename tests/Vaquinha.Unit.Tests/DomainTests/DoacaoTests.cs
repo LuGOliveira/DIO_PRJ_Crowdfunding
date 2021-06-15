@@ -165,5 +165,9 @@ namespace Vaquinha.Unit.Tests.DomainTests
             doacao.ErrorMessages.Should().Contain("Valor mínimo de doação é de R$ 5,00", because: "valor mínimo de doação nao foi atingido.");            
             doacao.ErrorMessages.Should().Contain("O campo Email é obrigatório.", because: "o campo Email não foi informado.");            
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ad3257b4c3889980ae90d68bfa3ffec20c310ca
     }
 }

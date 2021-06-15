@@ -34,7 +34,10 @@ namespace Vaquinha.AutomatedUITests
 		{
 			// Arrange
 			_driverFactory.NavigateToUrl("https://vaquinha.azurewebsites.net/");
+<<<<<<< HEAD
 			
+=======
+>>>>>>> 7ad3257b4c3889980ae90d68bfa3ffec20c310ca
 			_driver = _driverFactory.GetWebDriver();
 
 			// Act
@@ -59,6 +62,7 @@ namespace Vaquinha.AutomatedUITests
 			webElement = _driver.FindElement(By.ClassName("btn-yellow"));
 			webElement.Click();
 
+<<<<<<< HEAD
 			
 			IWebElement campoNome = _driver.FindElement(By.Id("DadosPessoais_Nome"));
 			campoNome.SendKeys(doacao.DadosPessoais.Nome);
@@ -107,6 +111,10 @@ namespace Vaquinha.AutomatedUITests
 
 	
 			 
+=======
+
+
+>>>>>>> 7ad3257b4c3889980ae90d68bfa3ffec20c310ca
 			//Assert
 			_driver.Url.Should().Contain("/Doacoes/Create");
 		}
